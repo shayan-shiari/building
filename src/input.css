@@ -1,0 +1,14 @@
+@import url('https://v1.fontapi.ir/css/Vazir:300;400;500;700;900');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Vazir", sans-serif;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(197, 117, 71);
+}

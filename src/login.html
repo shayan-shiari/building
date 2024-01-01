@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>ورود</title>
+  </head>
+  <body>
+    <div class="flex justify-center items-center bg-mainBgColor h-screen">
+      <div class="w-[80%] bg-white rounded-3xl p-8">
+        <h2 class="text-center font-bold text-xl mb-5">خوش آمدید، وارد شوید</h2>
+        <form class="space-y-7">
+          <fieldset>
+            <label for="">آدرس ایمیل:</label>
+            <input
+              type="text"
+              class="bg-gray-50 border border-gray-300 focus:outline-none text-gray-900 text-sm rounded-lg block w-full p-2.5"
+              placeholder="youremail@gmail.com"
+              required
+            />
+          </fieldset>
+          <fieldset>
+            <label for="">رمز عبور:</label>
+            <div
+              class="flex items-center bg-gray-50 border border-gray-300 rounded-lg p-2.5"
+            >
+              <input
+                type="password"
+                id="password"
+                class="text-gray-900 bg-gray-50 text-sm focus:outline-none block w-full"
+                placeholder="0000"
+                required
+              />
+              <box-icon
+                class="cursor-pointer"
+                id="password-icon"
+                type="solid"
+                name="show"
+              ></box-icon>
+            </div>
+          </fieldset>
+          <div>
+            <a href="#" class="text-zinc-600"
+              >رمز عبور خود را فراموش کرده‌اید؟</a
+            >
+          </div>
+          <div class="text-center">
+            <button
+              type="submit"
+              class="w-full bg-mainColor text-white font-bold py-2 px-4 rounded-lg"
+            >
+              ورود
+            </button>
+          </div>
+          <div class="font-bold text-center">
+            <p>
+              ثبت نام نکرده‌اید؟
+              <a href="./signup.html" class="text-mainColor">ثبت نام کنید.</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="./script.js"></script>
+</html>
